@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DarkToolKit", "DarkToolKit\DarkToolKit.csproj", "{F767CED8-C1F4-49C3-BA5C-6456E1DFA89C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6D007AB0-5FFC-4D4C-9C9F-75B7E2753C77} = {6D007AB0-5FFC-4D4C-9C9F-75B7E2753C77}
+		{DA86DFB2-0C4F-43D3-A2A0-8459E176EED8} = {DA86DFB2-0C4F-43D3-A2A0-8459E176EED8}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DarkPluginLib", "DarkPluginLib\DarkPluginLib.csproj", "{5B98AC1C-7487-4232-86AA-17B961DA89B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginExample", "PluginExample\PluginExample.csproj", "{6D007AB0-5FFC-4D4C-9C9F-75B7E2753C77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DarkUpdate", "DarkUpdate\DarkUpdate.csproj", "{DA86DFB2-0C4F-43D3-A2A0-8459E176EED8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F767CED8-C1F4-49C3-BA5C-6456E1DFA89C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F767CED8-C1F4-49C3-BA5C-6456E1DFA89C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F767CED8-C1F4-49C3-BA5C-6456E1DFA89C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F767CED8-C1F4-49C3-BA5C-6456E1DFA89C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B98AC1C-7487-4232-86AA-17B961DA89B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B98AC1C-7487-4232-86AA-17B961DA89B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B98AC1C-7487-4232-86AA-17B961DA89B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B98AC1C-7487-4232-86AA-17B961DA89B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D007AB0-5FFC-4D4C-9C9F-75B7E2753C77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D007AB0-5FFC-4D4C-9C9F-75B7E2753C77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D007AB0-5FFC-4D4C-9C9F-75B7E2753C77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D007AB0-5FFC-4D4C-9C9F-75B7E2753C77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA86DFB2-0C4F-43D3-A2A0-8459E176EED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA86DFB2-0C4F-43D3-A2A0-8459E176EED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA86DFB2-0C4F-43D3-A2A0-8459E176EED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA86DFB2-0C4F-43D3-A2A0-8459E176EED8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
